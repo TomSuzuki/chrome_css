@@ -1,0 +1,12 @@
+
+.timeline-wrapper {
+    background-color: #FFF;
+}
+
+.place-history-moment-outer::before {
+    background-color: #FFF !important;
+}
+
+.map-page-content {
+    background-color: #EEE !important;
+}

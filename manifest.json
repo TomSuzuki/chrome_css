@@ -1,0 +1,17 @@
+{
+    "name": "css",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "css詰め合わせ",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.google.co.jp/maps/timeline*"
+            ],
+            "run_at": "document_start",
+            "css": [
+                "google_timeline.css"
+            ]
+        }
+    ]
+}
